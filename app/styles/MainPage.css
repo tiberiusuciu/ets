@@ -7,148 +7,42 @@
 	background-color: white;
 }
 
-:local(.singlePostStyling) {
-	display: block;
-	width: 100%;
+:local(.MenuSelectionRow) {
+	/* width: 100%; */
+}
+
+:local(.MenuSelectionButton) {
 	border-bottom: 1px solid black;
-	position: relative;
-}
-
-:local(.singlePostTextStyling) {
-	padding: 20px;
-	padding-right: 40px;
-	display: inline-block;
-	width: 100%;
-	text-align: justify;
-	/* margin-left:  */
-}
-
-:local(.singlePostRatingsStyling) {
-	display: inline-block;
-	position: absolute;
-	right: 0px;
-	height: 100%;
-	width: 35px;
-}
-
-:local(.ratingButtons) {
-	display: block;
-	visibility: hidden;
 	text-align: center;
-}
-
-:local(.singlePostStyling:hover .ratingButtons) {
-	visibility: visible;
-}
-
-:local(.ratingAdd) {
-	height: 30%;
-	background-color: #00AA33AA;
-}
-
-:local(.ratingComment) {
-	height: 40%;
-	background-color: #0033AAAA;
-}
-
-:local(.ratingRemove) {
-	height: 30%;
-	background-color: #AA0033AA;
-}
-
-:local(.noPadding) {
-	padding: 0px;
-}
-
-:local(.postList) {
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	margin-top: 30px;
-	min-height: 100vh;
-	width: 100%;
-}
-
-:local(.navigatorBar) {
-	background-color: white;
-	text-align: center;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	z-index: 1;
-}
-
-
-:local(.navButton) {
-	font-size: 12px;
-	line-height: 54px;
-	color: black;
-	background-color: white;
-	transition: color 0.5s;
-}
-
-:local(.navButton:hover) {
-	color: #0AF;
-	/* font-weight: bold; */
-	background-color: #00000004;
-	cursor: pointer;
-}
-
-:local(.navButtonSection) {
-	border-bottom: 1px solid black;
-}
-
-:local(.theWordOf) {
-	font-size: 12px;
-	font-style: italic;
-}
-
-:local(.tiberius) {
 	font-weight: bold;
-	font-size: 24px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
 }
 
-:local(.dashboardBlock) {
-	margin-top: 85px;
-	height: 350px;
-	background: linear-gradient(270deg, #2896c9, #a80075, #004760);
-	background-size: 600% 600%;
-
-	-webkit-animation: Gradient 30s ease infinite;
-	-moz-animation: Gradient 30s ease infinite;
-	animation: Gradient 30s ease infinite;
+:local(.MenuSelectionButton:hover) {
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	height: 50px;
+	line-height: 50px;
+	background-color: #eee;
 }
 
-@-webkit-keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes Gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-:local(.hoverAnimation) {
-	background-color: white;
-	transition: color 0.5s;
-}
-
-:local(.hoverAnimation:hover) {
-	color: #0AF;
-	background-color: #00000004;
-	cursor: pointer;
-}
-
-:local(.dashboardTextPadding) {
-	padding-top: 20px;
+:local(.MenuSelectionButtonActive) {
 	color: white;
-	/* font-weight: bold; */
-	font-size: 35px;
+	background-color: #333;
+}
+
+:local(.MenuSelectionButtonActive:hover) {
+	color: white;
+	background-color: #444;
+}
+
+:local(.quationText) {
+	margin-top: 90px;
+	text-align: center;
+	color:#ccc;
+	font-weight: bold;
+	font-style: italic;
 }
