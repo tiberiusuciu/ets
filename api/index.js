@@ -9,6 +9,8 @@ var config = require('../config.js');
 
 var app = express();
 
+app.use(express.static(__dirname + '/public'));
+
 // Socket.io
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);

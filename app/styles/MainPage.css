@@ -84,6 +84,7 @@
 	margin: 0px 10px;
 	border: 1px solid black;
 	margin-top: 30px;
+	padding-left: 43px;
 }
 
 :local(.dashboardListContainer) {
@@ -159,6 +160,43 @@
 
 :local(.userlistName) {
 	font-weight: bold;
-	color: steelblue;
+	color: #CCC;
 	font-style: italic;
+}
+
+:local(.profilePicture) {
+	width: 125px;
+	height: 125px;
+	background-color: wheat;
+	background-repeat: no-repeat;
+  background-size:cover;
+	background-position: right;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 100px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+:local(.profileName) {
+	display: block;
+}
+
+:local(.profileDescription) {
+	margin-top: 48px;
+	display: inline-block;
+	vertical-align:top;
+	margin-left: 20px;
+}
+
+:local(.profileStars) {
+	display: inline-block;
+}
+
+:local(.profileInlineRatings) {
+	display: inline-block;
+	margin-left: 20px;
 }

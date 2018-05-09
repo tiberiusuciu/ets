@@ -25,10 +25,45 @@ class MenuSelection extends Component {
 						<UserListItem name="Jonathan Dionne-Morin" niveau="Maîtrise" rating={4} count={15}/>
 						<div className={styles.userListInnerSeparation}></div>
 						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
+						<div className={styles.userListInnerSeparation}></div>
+						<UserListItem name="Hervé Carole" niveau="Maîtrise" rating={4} count={8}/>
 					</div>
 				</div>
 				<div className={styles.dashboardProfile}>
-						profile
+					<div className={styles.profilePicture} style={{backgroundImage: "url('/images/chris1.jpg')"}}></div>
+					<div className={styles.profileDescription}>
+						<div className={styles.profileName}>Tiberiu Cristian Suciu</div>
+						<div className={styles.profileName}>Baccalauréat</div>
+						<StarRatingComponent
+		          name=""
+		          editing={false}
+		          starCount={5}
+		          value={3}
+							starColor={"black"}
+							emptyStarColor={"#dddddd"}
+							renderStarIcon={(index, value) => {
+	              return (
+	                <span>
+	                  <i className="far fa-star"></i>
+	                </span>
+	              );
+							}}
+							className={styles.starHeight + " " + styles.profileStars}
+		        />
+					<div className={styles.profileInlineRatings}><span className={styles.userlistName}>{51}</span> <i className="fas fa-user"></i></div>
+					</div>
 				</div>
 			</div>
 		)
