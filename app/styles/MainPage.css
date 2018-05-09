@@ -159,8 +159,7 @@
 }
 
 :local(.userlistName) {
-	font-weight: bold;
-	color: #CCC;
+	color: #aaa;
 	font-style: italic;
 }
 
