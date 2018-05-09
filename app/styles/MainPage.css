@@ -5,6 +5,7 @@
 
 :local(.mainBody) {
 	background-color: white;
+	padding-bottom: 40px;
 }
 
 :local(.MenuSelectionRow) {
@@ -45,4 +46,65 @@
 	color:#ccc;
 	font-weight: bold;
 	font-style: italic;
+}
+
+:local(.searchText) {
+	margin-top: 90px;
+	text-align: center;
+	font-weight: bold;
+}
+
+:local(.searchBox) {
+	margin-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+:local(.searchBox input) {
+	width: 400px;
+	text-align: center;
+}
+
+:local(.DashBoard) {
+	margin-top: 80px;
+	padding: 0px 20px;
+}
+
+:local(.dashboardList) {
+	border: 1px solid black;
+	width: 400px;
+	height: 400px;
+}
+
+:local(.dashboardProfile) {
+	width: 400px;
+	height: 400px;
+	margin: 0px 10px;
+	border: 1px solid black;
+	margin-top: 30px;
+}
+
+:local(.dashboardListContainer) {
+	width: 400px;
+	height: 400px;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+}
+
+:local(.dashboardTab) {
+	height: 30px;
+}
+
+:local(.tabOption) {
+	height: 100%;
+	line-height: 30px;
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+:local(.tabOptionEnd) {
+	border-right: 1px solid black;
 }

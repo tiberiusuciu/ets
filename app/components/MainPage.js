@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 // import DashBoard from './DashBoard';
 // import NavigatorBar from './NavigatorBar';
 import MenuSelection from './MenuSelection';
+import SearchBox from './SearchBox';
+import Dashboard from './Dashboard';
 
 import styles from '../styles/MainPage.css';
 
@@ -18,11 +20,8 @@ class MainPage extends Component {
 							<span>"Un ingénieur ne travaille jamais seul, il sera</span><br /><span>toujours en collaboration avec ses confrère"</span>
 						</div>
 					</div>
-					<div className={"row"}>
-						<div className={"col " + styles.quationText}>
-							<span>"Un ingénieur ne travaille jamais seul, il sera</span><br /><span>toujours en collaboration avec ses confrère"</span>
-						</div>
-					</div>
+					<SearchBox />
+					<Dashboard />
 				</div>
 			</div>
 		)
