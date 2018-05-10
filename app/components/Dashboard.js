@@ -42,27 +42,32 @@ class MenuSelection extends Component {
 					</div>
 				</div>
 				<div className={styles.dashboardProfile}>
-					<div className={styles.profilePicture} style={{backgroundImage: "url('/images/chris1.jpg')"}}></div>
-					<div className={styles.profileDescription}>
-						<div className={styles.profileName}>Tiberiu Cristian Suciu</div>
-						<div className={styles.profileName}>Baccalauréat</div>
-						<StarRatingComponent
-		          name=""
-		          editing={false}
-		          starCount={5}
-		          value={3}
-							starColor={"black"}
-							emptyStarColor={"#dddddd"}
-							renderStarIcon={(index, value) => {
-	              return (
-	                <span>
-	                  <i className="far fa-star"></i>
-	                </span>
-	              );
-							}}
-							className={styles.starHeight + " " + styles.profileStars}
-		        />
-					<div className={styles.profileInlineRatings}><span className={styles.userlistName}>{51}</span> <i className="fas fa-user"></i></div>
+					<div className={styles.profileInformationSection}>
+						<div className={styles.profilePicture} style={{backgroundImage: "url('/images/chris1.jpg')"}}></div>
+						<div className={styles.profileDescription}>
+							<div className={styles.profileName}>Tiberiu Cristian Suciu</div>
+							<div className={styles.profileName}>Baccalauréat</div>
+							<StarRatingComponent
+								name=""
+								editing={false}
+								starCount={5}
+								value={3}
+								starColor={"black"}
+								emptyStarColor={"#dddddd"}
+								renderStarIcon={(index, value) => {
+									return (
+										<span>
+											<i className="far fa-star"></i>
+										</span>
+									);
+								}}
+								className={styles.starHeight + " " + styles.profileStars}
+								/>
+							<div className={styles.profileInlineRatings}><span className={styles.userlistName}>{51}</span> <i className="fas fa-user"></i></div>
+						</div>
+					</div>
+					<div className={styles.schedule}>
+						test
 					</div>
 				</div>
 			</div>

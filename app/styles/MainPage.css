@@ -84,7 +84,6 @@
 	margin: 0px 10px;
 	border: 1px solid black;
 	margin-top: 30px;
-	padding-left: 43px;
 }
 
 :local(.dashboardListContainer) {
@@ -198,4 +197,16 @@
 :local(.profileInlineRatings) {
 	display: inline-block;
 	margin-left: 20px;
+}
+
+:local(.schedule) {
+	background-color: gold;
+	/* height: 247px; */
+	margin-left: 0.5px;
+}
+
+:local(.profileInformationSection) {
+	width: 100%;
+	display: block;
+	padding-left: 43px;
 }
