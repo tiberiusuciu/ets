@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import UserListItem from './UserListItem';
+import ScheduleBox from './ScheduleBox';
 
 import styles from '../styles/MainPage.css';
 
@@ -66,9 +67,7 @@ class MenuSelection extends Component {
 							<div className={styles.profileInlineRatings}><span className={styles.userlistName}>{51}</span> <i className="fas fa-user"></i></div>
 						</div>
 					</div>
-					<div className={styles.schedule}>
-						test
-					</div>
+					<ScheduleBox />
 				</div>
 			</div>
 		)

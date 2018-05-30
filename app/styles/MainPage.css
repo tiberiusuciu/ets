@@ -201,7 +201,7 @@
 }
 
 :local(.schedule) {
-	background-color: gold;
+	background-color: steelblue;
 	/* height: 247px; */
 	/* margin-left: 0.5px; */
 	height: calc(100% - 171px);
@@ -211,4 +211,11 @@
 	width: 100%;
 	display: block;
 	padding-left: 43px;
+}
+
+:local(.daybox) {
+	width: 50px;
+	display: inline-block;
+	border: 1px solid black;
+	height: 100%;
 }
